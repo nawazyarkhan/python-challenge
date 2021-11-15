@@ -55,6 +55,7 @@ with open(election_file, "w") as outfile:
         #print("Total votes %d" % votes_total)
         #print("-------------------------")
         print(voter_output)
+    
         
         outfile.write(voter_output)
                
