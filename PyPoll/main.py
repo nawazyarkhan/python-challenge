@@ -47,9 +47,9 @@ with open(election_file, "w") as outfile:
     for candidate in candidate_votes:
         votes = candidate_votes[candidate]
         vote_percentage = float(votes)/float(votes_total)*100
-        if (votes > num_of_winner):
-            winner_count = votes
-            winner2 = candidate
+        #if (votes > num_of_winner):
+         #   winner_count = votes
+          #  winner2 = candidate
         voter_output = f"{candidate}: {vote_percentage:.3f}% ({votes})\n"
 
         #print("Total votes %d" % votes_total)
